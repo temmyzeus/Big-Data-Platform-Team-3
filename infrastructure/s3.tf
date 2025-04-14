@@ -10,6 +10,6 @@ resource "aws_s3_bucket" "emr-bucket" {
 resource "aws_s3_object" "input_object" {
   bucket = "big-data-platform-team-3"
   key    = "input_files"
-  source = "big-data-platform-team-3/input_files"
+  source = "s3_input_files"
 
 }
