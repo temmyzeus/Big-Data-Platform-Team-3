@@ -36,7 +36,7 @@ resource "aws_subnet" "public_subnet" {
 
 # Internet Gateway
 
-resource "aws_internet_gateway" "gw" {
+resource "aws_internet_gateway" "igw" {
   vpc_id = aws_vpc.big-data-platform-team-3.id
 
   tags = {
@@ -51,16 +51,18 @@ resource "aws_route_table" "route_table" {
   vpc_id = aws_vpc.big-data-platform-team-3.id
 
   route {
-    cidr_block = "10.0.1.0/24"
-    gateway_id = aws_internet_gateway.example.id
-  }
-
-  route {
-    ipv6_cidr_block        = "::/0"
-    egress_only_gateway_id = aws_egress_only_internet_gateway.example.id
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.igw.id
   }
 
   tags = {
     Name = "example"
   }
+}
+
+# Subnet to route table association
+
+resource "aws_route_table_association" "public_association" {
+  subnet_id      = aws_subnet.public_subnet.id
+  route_table_id = aws_route_table.route_table.id
 }
