@@ -14,9 +14,9 @@ data "aws_iam_policy_document" "s3_user_policy_doc" {
   statement {
     effect    = "Allow"
     actions   = ["s3:GetObject",
-    "s3PutObjectAcl",
+    "s3:PutObjectAcl",
     "s3:PutObject", 
-    "s3:ListObject"
+    "s3:ListBucket"
     ]
     resources = ["arn:aws:s3:::big-data-platform-team-3/*", "arn:aws:s3:::big-data-platform-team-3/"]
   }
