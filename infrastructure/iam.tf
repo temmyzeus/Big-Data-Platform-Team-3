@@ -12,9 +12,12 @@ data "aws_iam_policy_document" "s3_user_policy_doc" {
     actions = ["s3:GetObject",
       "s3:PutObjectAcl",
       "s3:PutObject",
+      "s3:ListAllMyBuckets",
       "s3:ListBucket"
     ]
-    resources = ["arn:aws:s3:::big-data-platform-team-3/*", "arn:aws:s3:::big-data-platform-team-3/"]
+    resources = [
+        "arn:aws:s3:::big-data-platform-team-3/*", 
+    "arn:aws:s3:::big-data-platform-team-3/"]
   }
 }
 
