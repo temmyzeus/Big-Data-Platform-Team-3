@@ -39,7 +39,7 @@ def make_data_into_df(data: list):
 
 
 def save_data_into_parquet(df):
-    return df.to_parquet("data/car_sales_data.parquet")
+    return df.to_parquet("./data/car_sales_data.parquet")
 
 # def upload_to_s3(parquet_file: str) -> None:
 
