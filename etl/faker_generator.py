@@ -60,14 +60,8 @@ if __name__ == '__main__':
             [BATCH_SIZE]*NUM_BATCHES),
             total=NUM_BATCHES))
 
-    final_df = pd.DataFrame([item
-                             for sublist in all_batches
-                             for item in sublist])
-    final_df.drop_duplicates(subset=['name',
-                                     'email',
-                                     'date_of_birth'
-                                     ], inplace=True)
-    final_df.to_parquet(
-        "data/realistic_data.parquet",
-        index=False,
-        engine="pyarrow")
+    final_df = pd.DataFrame([item for sublist in all_batches for item in sublist])
+    final_df.drop_duplicates(subset=['name', 'email', 'date_of_birth'], inplace=True)
+    final_df.to_parquet("data/realistic_data.parquet", index=False, engine="pyarrow")
+
+
