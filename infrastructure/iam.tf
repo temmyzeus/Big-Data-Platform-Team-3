@@ -11,7 +11,7 @@ resource "aws_iam_user" "s3_user" {
 #   user = aws_iam_user.lb.name
 # }
 
-data "aws_iam_policy_document" "s3_user_policy" {
+data "aws_iam_policy_document" "s3_user_policy_doc" {
   statement {
     effect    = "Allow"
     actions   = ["s3:GetObject",
@@ -22,8 +22,8 @@ data "aws_iam_policy_document" "s3_user_policy" {
   }
 }
 
-# resource "aws_iam_user_policy" "lb_ro" {
-#   name   = "test"
-#   user   = aws_iam_user.lb.name
-#   policy = data.aws_iam_policy_document.lb_ro.json
-# }
+resource "aws_iam_user_policy" "lb_ro" {
+  name   = "s3_user_policy"
+  user   = aws_iam_user.s3_user.name
+  policy = data.aws_iam_policy_document.lb_ro.json
+}
