@@ -2,3 +2,4 @@
 *.tfstate
 *.hcl
 data/
+etl/faker_generator.py
