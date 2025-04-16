@@ -11,13 +11,14 @@ resource "aws_iam_user" "s3_user" {
 #   user = aws_iam_user.lb.name
 # }
 
-# data "aws_iam_policy_document" "lb_ro" {
-#   statement {
-#     effect    = "Allow"
-#     actions   = ["ec2:Describe*"]
-#     resources = ["*"]
-#   }
-# }
+data "aws_iam_policy_document" "lb_ro" {
+  statement {
+    effect    = "Allow"
+    actions   = ["s3:GetObject","s3PutObjectAcl",
+    "s3:PutObject"]
+    resources = ["arn:aws:s3:::big-data-platform-team-3"]
+  }
+}
 
 # resource "aws_iam_user_policy" "lb_ro" {
 #   name   = "test"
