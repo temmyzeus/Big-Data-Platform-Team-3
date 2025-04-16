@@ -45,8 +45,8 @@ def generate_batch(batch_size):
 
 
 if __name__ == '__main__':
-    TOTAL_ROWS = 5_000_000
-    BATCH_SIZE = 100_000
+    TOTAL_ROWS = 100
+    BATCH_SIZE = 20
     NUM_BATCHES = TOTAL_ROWS // BATCH_SIZE
 
     with Pool(cpu_count()) as pool:
