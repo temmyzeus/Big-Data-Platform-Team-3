@@ -12,6 +12,7 @@ BATCH_SIZE = 100
 
 def generate_car_sales_data():
     data = []
+
     for _ in range(BATCH_SIZE):
 
         data.append(
