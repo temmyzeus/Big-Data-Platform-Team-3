@@ -22,7 +22,7 @@ data "aws_iam_policy_document" "s3_user_policy_doc" {
 }
 
 resource "aws_iam_user_policy" "s3_user_policy" {
-  name   = "s3_user_policy"
+  name   = "iam"
   user   = aws_iam_user.s3_user.name
   policy = data.aws_iam_policy_document.s3_user_policy_doc.json
 }
