@@ -18,7 +18,7 @@ data "aws_iam_policy_document" "s3_user_policy_doc" {
     "s3:PutObject", 
     "s3:ListObject"
     ]
-    resources = ["arn:aws:s3:::big-data-platform-team-3"]
+    resources = ["arn:aws:s3:::big-data-platform-team-3/*"]
   }
 }
 
