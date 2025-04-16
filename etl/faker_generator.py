@@ -13,16 +13,20 @@ random.seed(42)
 
 
 def generate_batch(batch_size):
+
     """
-    This is a more optimized method of generation I used as it does not generate email_id from faker as fake.unique.email() is slowing down the process due to too many scanning to confirm uniqueness.
-    I have decided to use the random library for this purpose.
+        Using fake.unique.email() was slowing down the process due to
+        excessive scanning to ensure uniqueness. I have decided to use
+        the random library instead.
 
     """
     local_fake = Faker()
     data = []
     for _ in range(batch_size):
         name = local_fake.name()
-        email = f"{name.lower().replace(' ', '.')}.{random.randint(1000, 9999)}@{local_fake.free_email_domain()}"
+        email = f"{name.lower().replace(' ', '.')}.\
+            {random.randint(1000, 9999)}@\
+                {local_fake.free_email_domain()}"
         address = local_fake.address().replace("\n", ", ")
         phone = local_fake.phone_number()
 
@@ -51,10 +55,19 @@ if __name__ == '__main__':
     NUM_BATCHES = TOTAL_ROWS // BATCH_SIZE
 
     with Pool(cpu_count()) as pool:
-        all_batches = list(tqdm(pool.imap(generate_batch, [BATCH_SIZE]*NUM_BATCHES), total=NUM_BATCHES))
+        all_batches = list(tqdm(pool.imap(
+            generate_batch,
+            [BATCH_SIZE]*NUM_BATCHES),
+            total=NUM_BATCHES))
 
-    final_df = pd.DataFrame([item for sublist in all_batches for item in sublist])
-    final_df.drop_duplicates(subset=['name', 'email', 'date_of_birth'], inplace=True)
-    final_df.to_parquet("data/realistic_data.parquet", index=False, engine="pyarrow")
-
-
+    final_df = pd.DataFrame([item
+                             for sublist in all_batches
+                             for item in sublist])
+    final_df.drop_duplicates(subset=['name',
+                                     'email',
+                                     'date_of_birth'
+                                     ], inplace=True)
+    final_df.to_parquet(
+        "data/realistic_data.parquet",
+        index=False,
+        engine="pyarrow")
