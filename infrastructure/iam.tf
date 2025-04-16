@@ -1,9 +1,8 @@
 resource "aws_iam_user" "s3_user" {
   name = "s3_user"
-  path = "/system/"
-
+  
   tags = {
-    tag-key = "tag-value"
+    tag-key = "prod"
   }
 }
 
