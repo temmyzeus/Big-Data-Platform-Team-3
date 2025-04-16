@@ -3,5 +3,5 @@
 *.hcl
 etl/data
 venv/
-faker_generator.py
-tester.py
+etl/faker_generator.py
+etl/tester.py
