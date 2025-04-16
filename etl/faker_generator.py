@@ -1,5 +1,6 @@
 import random
 import uuid
+from multiprocessing import Pool, cpu_count
 
 import pandas as pd
 from faker import Faker
@@ -9,8 +10,6 @@ from tqdm import tqdm
 fake = Faker()
 Faker.seed(42)
 random.seed(42)
-
-from multiprocessing import Pool, cpu_count
 
 
 def generate_batch(batch_size):
