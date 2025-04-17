@@ -32,4 +32,4 @@ jobs:
 
     - name: Upload Spark Code to S3
       run: |
-        aws s3 cp etl/ s3://big-data-platform-team-3/deployment/
+        aws s3 cp etl/ s3://big-data-platform-team-3a/deployment/
