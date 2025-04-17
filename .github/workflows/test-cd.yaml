@@ -34,5 +34,5 @@ jobs:
       run: |
         # aws s3 cp etl/car_sales_generator.py s3://testing-cd-bucket-1/deployment/
         # aws s3 cp etl/upload_to_s3.py s3://testing-cd-bucket-1/deployment/
-        aws s3 cp etl/car_sales_generator.py s3://big-data-platform-team-3a/deployment/
-        aws s3 cp etl/upload_to_s3.py s3://big-data-platform-team-3a/deployment/
+        aws s3 cp etl/car_sales_generator.py s3://big-data-platform-team-3/deployment/
+        aws s3 cp etl/upload_to_s3.py s3://big-data-platform-team-3/deployment/
