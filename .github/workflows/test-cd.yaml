@@ -1,0 +1,35 @@
+name: S3 Deployment Test
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    environment: PROD
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11.0'
+
+    - name: Install AWS CLI
+      run: |
+        pip install awscli
+    
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.DEPLOY_SPARK_CODE_TO_S3_USER_AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.DEPLOY_SPARK_CODE_TO_S3_AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Upload Spark Code to S3
+      run: |
+        aws s3 cp etl/*.py s3://big-data-platform-team-3/emr_scripts/
