@@ -32,4 +32,4 @@ jobs:
 
     - name: Upload Spark Code to S3
       run: |
-        aws s3 cp pyspark.py ${{ vars.EMR_SPARK_S3_CODE_PATH }} # Temmy, please change this to s3://testing-cd-bucket-1/emr_pyspark/
+        aws s3 cp spark/pyspark.py ${{ vars.EMR_SPARK_S3_CODE_PATH }} # Temmy, please change var path to s3://testing-cd-bucket-1/emr_pyspark/
