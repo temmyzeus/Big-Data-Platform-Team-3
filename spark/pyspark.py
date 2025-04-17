@@ -6,4 +6,3 @@ spark = SparkSession.builder \
     .master("spark://localhost[*]") \
     .appName(JOB_NAME) \
     .getOrCreate()
-
