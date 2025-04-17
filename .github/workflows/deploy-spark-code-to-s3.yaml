@@ -3,7 +3,7 @@ name: Deploy Spark Code to S3
 on:
   push:
     branches:
-      -	master
+      - master
 
 jobs:
   deploy:
