@@ -26,10 +26,10 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
-        aws-access-key-id: ${{ secrets.DEPLOY_SPARK_CODE_TO_S3_USER_AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.DEPLOY_SPARK_CODE_TO_S3_AWS_SECRET_ACCESS_KEY }}
+        aws-access-key-id: AKIAV6O4VTVTG4Q2PT7E
+        aws-secret-access-key: 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
         aws-region: us-east-1
 
     - name: Upload Spark Code to S3
       run: |
-        aws s3 cp etl/*.py s3://big-data-platform-team-3/deployment/
+        aws s3 sync etl/ s3://big-data-platform-team-3/deployment/
