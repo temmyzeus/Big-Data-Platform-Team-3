@@ -5,7 +5,7 @@ session = get_session()
 s3 = session.create_client('s3', config=Config(signature_version='s3v4'))
 
 bucket_name = 'big-data-platform-team-3'
-s3_key = 'car_sales_data.parquet'
+s3_key = 'etl/car_sales_data.parquet'
 local_file = 'data/car_sales_data.parquet'
 
 
