@@ -7,7 +7,6 @@ import pandas as pd
 from faker import Faker
 from faker_vehicle import VehicleProvider
 from tqdm import tqdm
-
 from upload_to_s3 import bucket_name, local_file, s3_key, upload_parquet_file
 
 fake = Faker()
@@ -28,7 +27,7 @@ def generate_car_sales_data(batch_size) -> list:
                         {fake.free_email_domain()}",
                 "address": fake.address(),
                 "phone": fake.phone_number(),
-                "vehicle_yr": fake.vehicle_year(),
+                "vehicle_year": fake.vehicle_year(),
                 "vehicle_category": fake.vehicle_category(),
                 "vehicle_year_make_model": fake.vehicle_year_make_model()
             }
