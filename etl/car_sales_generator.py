@@ -8,6 +8,9 @@ from faker import Faker
 from faker_vehicle import VehicleProvider
 from tqdm import tqdm
 
+from upload_to_s3 import local_file, s3_key, bucket_name, upload_parquet_file
+
+
 fake = Faker()
 fake.add_provider(VehicleProvider)
 
@@ -57,3 +60,8 @@ if __name__ == '__main__':
     df = make_data_into_df(all_batches)
 
     save_data_into_parquet(df)
+
+    # referencing the upload_to_s3 file
+    upload_parquet_file(local_file=local_file,
+                        bucket_name=bucket_name,
+                        s3_key=s3_key)
