@@ -28,7 +28,7 @@ def generate_car_sales_data(batch_size) -> list:
                         {fake.free_email_domain()}",
                 "address": fake.address(),
                 "phone": fake.phone_number(),
-                "vehicle_year": fake.vehicle_year(),
+                "vehicle_yr": fake.vehicle_year(),
                 "vehicle_category": fake.vehicle_category(),
                 "vehicle_year_make_model": fake.vehicle_year_make_model()
             }
