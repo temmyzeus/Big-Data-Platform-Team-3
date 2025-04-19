@@ -8,8 +8,7 @@ from faker import Faker
 from faker_vehicle import VehicleProvider
 from tqdm import tqdm
 
-from upload_to_s3 import local_file, s3_key, bucket_name, upload_parquet_file
-
+from upload_to_s3 import bucket_name, local_file, s3_key, upload_parquet_file
 
 fake = Faker()
 fake.add_provider(VehicleProvider)
