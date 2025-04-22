@@ -139,6 +139,11 @@ data "aws_iam_policy_document" "emr_service_policy" {
 }
 
 
+resource "aws_iam_role_policy" "iam_emr_service_policy" {
+  name   = "iam_emr_service_policy"
+  role   = aws_iam_role.emr_service_role.id
+  policy = data.aws_iam_policy_document.emr_service_policy.json
+}
 
 
 
