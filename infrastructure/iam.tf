@@ -28,3 +28,17 @@ resource "aws_iam_user_policy" "s3_user_policy" {
   user   = aws_iam_user.s3_user.name
   policy = data.aws_iam_policy_document.s3_user_policy_doc.json
 }
+
+resource "aws_iam_user" "airflow_user" {
+  name = "airflow_user"
+
+  tags = {
+    Environment = "Production"
+    Owner = "Data Platform Team"
+    Service = "Airflow"
+  }
+}
+
+
+
+
