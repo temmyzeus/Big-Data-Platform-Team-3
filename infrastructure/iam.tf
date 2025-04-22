@@ -56,6 +56,19 @@ resource "aws_ssm_parameter" "airflow_access_key" {
   value = aws_iam_access_key.airflow_keys.secret
 }
 
+data "aws_iam_policy_document" "emr_assume_role" {
+  statement {
+    effect = "Allow"
+
+    principals {
+      type        = "Service"
+      identifiers = ["elasticmapreduce.amazonaws.com"]
+    }
+
+    actions = ["sts:AssumeRole"]
+  }
+}
+
 
 
 
