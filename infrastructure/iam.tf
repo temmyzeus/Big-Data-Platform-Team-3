@@ -168,3 +168,38 @@ resource "aws_iam_instance_profile" "emr_profile" {
   name = "emr_instance_profile"
   role = aws_iam_role.emr_profile_role.name
 }
+
+
+data "aws_iam_policy_document" "emr_instance_profile_policy" {
+  statement {
+    effect = "Allow"
+
+    actions = [
+      "cloudwatch:*",
+      "dynamodb:*",
+      "ec2:Describe*",
+      "elasticmapreduce:Describe*",
+      "elasticmapreduce:ListBootstrapActions",
+      "elasticmapreduce:ListClusters",
+      "elasticmapreduce:ListInstanceGroups",
+      "elasticmapreduce:ListInstances",
+      "elasticmapreduce:ListSteps",
+      "elasticmapreduce:RunJobFlow", # ADDED THIS
+      "kinesis:CreateStream",
+      "kinesis:DeleteStream",
+      "kinesis:DescribeStream",
+      "kinesis:GetRecords",
+      "kinesis:GetShardIterator",
+      "kinesis:MergeShards",
+      "kinesis:PutRecord",
+      "kinesis:SplitShard",
+      "rds:Describe*",
+      "s3:*",
+      "sdb:*",
+      "sns:*",
+      "sqs:*",
+    ]
+
+    resources = ["*"]
+  }
+}
