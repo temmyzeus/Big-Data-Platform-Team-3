@@ -203,3 +203,10 @@ data "aws_iam_policy_document" "emr_instance_profile_policy" {
     resources = ["*"]
   }
 }
+
+
+resource "aws_iam_role_policy" "emr_instance_profile_policy" {
+  name   = "emr_instance_profile_policy"
+  role   = aws_iam_role.emr_profile_role.id
+  policy = data.aws_iam_policy_document.emr_instance_profile_policy.json
+}
