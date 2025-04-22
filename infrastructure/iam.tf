@@ -163,3 +163,8 @@ resource "aws_iam_role" "emr_profile_role" {
   name               = "emr-instance-profile-role"
   assume_role_policy = data.aws_iam_policy_document.ec2_assume_role.json
 }
+
+resource "aws_iam_instance_profile" "emr_profile" {
+  name = "emr_instance_profile"
+  role = aws_iam_role.emr_profile_role.name
+}
