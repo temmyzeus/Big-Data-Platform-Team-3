@@ -39,6 +39,12 @@ resource "aws_iam_user" "airflow_user" {
   }
 }
 
+resource "aws_iam_access_key" "airflow_keys" {
+  user = aws_iam_user.airflow_user.name
+}
+
+
+
 
 
 
