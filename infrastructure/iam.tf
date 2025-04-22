@@ -44,6 +44,12 @@ resource "aws_iam_access_key" "airflow_keys" {
 }
 
 
+resource "aws_ssm_parameter" "airflow_access_key" {
+  name  = "/Production/airflow/aws_access_key"
+  type  = "String"
+  value = aws_iam_access_key.airflow_keys.id
+}
+
 
 
 
