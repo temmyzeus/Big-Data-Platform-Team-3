@@ -1,8 +1,10 @@
 resource "aws_iam_user" "s3_user" {
   name = "s3_user"
 
-  tags = {
-    tag-key = "prod"
+   tags = {
+    Environment = "Production"
+    Owner = "Data Platform Team"
+    Service = "s3"
   }
 }
 
