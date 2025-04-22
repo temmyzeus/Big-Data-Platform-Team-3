@@ -69,6 +69,11 @@ data "aws_iam_policy_document" "emr_assume_role" {
   }
 }
 
+resource "aws_iam_role" "emr_service_role" {
+  name               = "emr-service-role"
+  assume_role_policy = data.aws_iam_policy_document.emr_assume_role.json
+}
+
 
 
 
