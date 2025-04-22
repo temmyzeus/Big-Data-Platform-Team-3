@@ -146,4 +146,16 @@ resource "aws_iam_role_policy" "iam_emr_service_policy" {
 }
 
 
+data "aws_iam_policy_document" "ec2_assume_role" {
+  statement {
+    effect = "Allow"
+
+    principals {
+      type        = "Service"
+      identifiers = ["ec2.amazonaws.com"]
+    }
+
+    actions = ["sts:AssumeRole"]
+  }
+}
 
