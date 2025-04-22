@@ -17,7 +17,7 @@ data "aws_iam_policy_document" "s3_user_policy_doc" {
     ]
     resources = [
         "arn:aws:s3:::big-data-platform-team-3/*", 
-    "arn:aws:s3:::big-data-platform-team-3/"]
+    "arn:aws:s3:::big-data-platform-team-3"]
   }
 }
 
