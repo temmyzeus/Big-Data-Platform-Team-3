@@ -164,7 +164,7 @@ resource "aws_iam_role" "emr_profile_role" {
   assume_role_policy = data.aws_iam_policy_document.ec2_assume_role.json
 }
 
-resource "aws_iam_instance_profile" "emr_profile" {
+resource "aws_iam_instance_profile" "emr_instance_profile" {
   name = "emr_instance_profile"
   role = aws_iam_role.emr_profile_role.name
 }
@@ -209,4 +209,19 @@ resource "aws_iam_role_policy" "emr_instance_profile_policy" {
   name   = "emr_instance_profile_policy"
   role   = aws_iam_role.emr_profile_role.id
   policy = data.aws_iam_policy_document.emr_instance_profile_policy.json
+}
+
+# Modifications
+data "aws_iam_policy_document" "airflow_emr_permissions" {
+  statement {
+    effect = "Allow"
+    actions = ["elasticmapreduce:RunJobFlow"]
+    resources = ["arn:aws:elasticmapreduce:us-east-1:409021554022:cluster/*"] # Consider more specific resource ARNs
+  }
+}
+
+resource "aws_iam_user_policy" "airflow_emr_policy" {
+  name   = "AirflowEMRPermissions"
+  user   = aws_iam_user.airflow_user.name
+  policy = data.aws_iam_policy_document.airflow_emr_permissions.json
 }

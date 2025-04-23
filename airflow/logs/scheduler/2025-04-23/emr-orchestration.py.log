@@ -801,3 +801,52 @@ NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
 [2025-04-23T17:11:04.557+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:11:04.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-23T17:11:04.578+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:11:04.578+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
 [2025-04-23T17:11:04.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.309 seconds
+[2025-04-23T17:11:34.970+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:11:34.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:11:34.989+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:11:34.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:11:35.020+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:11:35.081+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:11:35.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:11:35.122+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:11:35.122+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:11:35.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.243 seconds
+[2025-04-23T17:12:05.289+0000] {processor.py:186} INFO - Started process (PID=672) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:05.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:12:05.297+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:05.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:05.331+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:05.380+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:05.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:12:05.407+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:05.407+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:12:05.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.156 seconds
+[2025-04-23T17:12:35.841+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:35.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:12:35.852+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:35.851+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:35.887+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:12:35.953+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:35.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:12:35.983+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:12:35.983+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:12:36.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.196 seconds
+[2025-04-23T17:13:06.172+0000] {processor.py:186} INFO - Started process (PID=686) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:06.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:13:06.181+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:06.180+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:06.211+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:06.269+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:06.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:13:06.301+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:06.301+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:13:06.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.181 seconds
+[2025-04-23T17:13:36.600+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:36.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:13:36.612+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:36.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:36.630+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:13:36.656+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:36.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:13:36.677+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:13:36.676+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:13:36.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.118 seconds
+[2025-04-23T17:14:07.136+0000] {processor.py:186} INFO - Started process (PID=700) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:07.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:14:07.141+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:07.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:07.158+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:07.178+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:07.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:14:07.200+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:07.200+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:14:07.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.094 seconds
+[2025-04-23T17:14:37.569+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:37.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T17:14:37.585+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:37.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:37.603+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T17:14:37.640+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:37.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T17:14:37.672+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:37.672+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T17:14:37.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.143 seconds
