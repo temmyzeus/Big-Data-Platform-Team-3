@@ -1,3 +1,5 @@
 etl/data/
 *.terraform
 *.github/workflows/test-cd.yaml
+airflow/config/
+airflow/logs/
