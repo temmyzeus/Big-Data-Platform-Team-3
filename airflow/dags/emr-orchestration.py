@@ -1,7 +1,7 @@
-from datetime import datetime, timedelta
+# from datetime import datetime, timedelta
 
-import boto3
-from airflow.models import Variable
+# import boto3
+# from airflow.models import Variable
 from airflow.providers.amazon.aws.operators.emr import (
     EmrAddStepsOperator, EmrCreateJobFlowOperator, EmrTerminateJobFlowOperator)
 from airflow.providers.amazon.aws.sensors.emr import EmrStepSensor
