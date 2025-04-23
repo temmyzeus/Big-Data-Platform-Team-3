@@ -1,0 +1,15 @@
+[2025-04-23T14:33:56.874+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:33:56.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T14:33:56.895+0000] {logging_mixin.py:190} INFO - [2025-04-23T14:33:56.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:33:56.905+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:33:56.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.081 seconds
+[2025-04-23T14:34:27.210+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:27.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T14:34:27.735+0000] {logging_mixin.py:190} INFO - [2025-04-23T14:34:27.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:27.744+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:27.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.557 seconds
+[2025-04-23T14:34:58.488+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:58.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T14:34:58.493+0000] {logging_mixin.py:190} INFO - [2025-04-23T14:34:58.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:58.509+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T14:34:58.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.048 seconds

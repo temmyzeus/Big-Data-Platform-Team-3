@@ -95,3 +95,29 @@
 [2025-04-23T14:28:54.880+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
 [2025-04-23T14:28:54.880+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
 [2025-04-23T14:28:54.886+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2025-04-23T14:33:54.916+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-04-23T14:33:54.925+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2025-04-23T14:34:06.949+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/emr-orchestration.py                           0           0  0.16s           2025-04-23T14:33:56                       3
+================================================================================
+[2025-04-23T14:34:37.012+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/emr-orchestration.py                           0           0  0.60s           2025-04-23T14:34:27                       3
+================================================================================
+[2025-04-23T14:35:07.546+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/emr-orchestration.py                           0           0  0.10s           2025-04-23T14:34:58                       3
+================================================================================
