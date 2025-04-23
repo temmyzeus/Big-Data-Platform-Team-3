@@ -9,22 +9,22 @@ from airflow.providers.amazon.aws.sensors.emr import EmrStepSensor
 from airflow import DAG
 
 
-def aws_session():
-    session = boto3.Session(
-                    aws_access_key_id=Variable.get('access_key'),
-                    aws_secret_access_key=Variable.get('secret_key'),
-                    region_name="us-east-1"
-    )
-    return session
+# def aws_session():
+#     session = boto3.Session(
+#                     aws_access_key_id=Variable.get('access_key'),
+#                     aws_secret_access_key=Variable.get('secret_key'),
+#                     region_name="us-east-1"
+#     )
+#     return session
 
-def boto3_client(aws_service):
+# def boto3_client(aws_service):
 
-    client = boto3.client(aws_service,
-                          aws_access_key_id=Variable.get('access_key'),
-                          aws_secret_access_key=Variable.get('secret_key'),
-                          region_name="us-east-1")
+#     client = boto3.client(aws_service,
+#                           aws_access_key_id=Variable.get('access_key'),
+#                           aws_secret_access_key=Variable.get('secret_key'),
+#                           region_name="us-east-1")
 
-    return client
+    # return client
 
 
 JOB_FLOW_OVERRIDES: dict[str, Any] = {
@@ -56,7 +56,13 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
 
 with DAG(
     dag_id="emr_orchestration",
-    start_date=datetime(2024, 11, 22),
+    start_date=datetime(2025, 4, 23),
     schedule_interval='0 0 * * *',
     catchup=False
 ) as dag:
+    create_emr_cluster = EmrCreateJobFlowOperator(
+    task_id='create_emr_cluster',
+    job_flow_overrides=JOB_FLOW_OVERRIDES,
+    aws_conn_id='aws_default',
+    dag=dag
+)
