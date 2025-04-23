@@ -30,7 +30,7 @@ from airflow import DAG
 
 JOB_FLOW_OVERRIDES: dict[str, Any] = {
     "Name": "Spark Job Cluster",
-    "ReleaseLabel": "emr-7.1.0",
+    "ReleaseLabel": "emr-5.20.0",
     "Applications": [{"Name": "Spark"}],
     "Instances": {
         "InstanceGroups": [
@@ -45,8 +45,8 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
                 'Name': 'Worker nodes',
                 'Market': 'ON_DEMAND',
                 'InstanceRole': 'CORE',
-                'InstanceType': 'm5.xlarge',  # Choose appropriate instance type
-                'InstanceCount': 3,  # Here we specify 3 worker nodes
+                'InstanceType': 'm5.xlarge',
+                'InstanceCount': 2,
                 }
         ],
         # If the EMR steps complete too quickly the cluster will be torn down before the other system test
@@ -59,6 +59,24 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
     "JobFlowRole": "emr-instance-profile",
     "ServiceRole": "emr-service-role",
 }
+
+SPARK_STEPS = [
+    {
+        'Name': 'Run PySpark ETL',
+        'ActionOnFailure': 'TERMINATE_CLUSTER',
+        'HadoopJarStep': {
+            'Jar': 'command-runner.jar',
+            'Args': [
+                'spark-submit',
+                '--deploy-mode', 'cluster',
+                '--master', 'yarn',
+                's3://big-data-platform-team-3/emr_pyspark/pyspark.py',
+                '--input', 's3://big-data-platform-team-3/etl/car_sales_data.parquet',
+                '--output', 's3://big-data-platform-team-3/output'
+            ]
+        }
+    }
+]
 
 
 
