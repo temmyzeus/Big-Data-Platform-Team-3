@@ -100,3 +100,11 @@ with DAG(
     steps=SPARK_STEPS,
     dag=dag
 )
+
+step_checker = EmrStepSensor(
+    task_id='watch_step',
+    job_flow_id="{{ task_instance.xcom_pull('create_emr_cluster', key='return_value') }}",
+    step_id="{{ task_instance.xcom_pull(task_ids='add_steps', key='return_value')[0] }}",
+    aws_conn_id='aws_default',
+    dag=dag
+)
