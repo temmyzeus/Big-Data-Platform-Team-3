@@ -17,8 +17,18 @@ def aws_session():
     )
     return session
 
+def boto3_client(aws_service):
+
+    client = boto3.client(aws_service,
+                          aws_access_key_id=Variable.get('access_key'),
+                          aws_secret_access_key=Variable.get('secret_key'),
+                          region_name="us-east-1")
+
+    return client
+
+
 JOB_FLOW_OVERRIDES: dict[str, Any] = {
-    "Name": "PiCalc",
+    "Name": "Spark Job Cluster",
     "ReleaseLabel": "emr-7.1.0",
     "Applications": [{"Name": "Spark"}],
     "Instances": {
@@ -34,10 +44,10 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
         # If the EMR steps complete too quickly the cluster will be torn down before the other system test
         # tasks have a chance to run (such as the modify cluster step, the addition of more EMR steps, etc).
         # Set KeepJobFlowAliveWhenNoSteps to False to avoid the cluster from being torn down prematurely.
-        "KeepJobFlowAliveWhenNoSteps": True,
+        "KeepJobFlowAliveWhenNoSteps": False,
         "TerminationProtected": False,
     },
-    "Steps": SPARK_STEPS,
+    # "Steps": SPARK_STEPS,
     "JobFlowRole": "EMR_EC2_DefaultRole",
     "ServiceRole": "EMR_DefaultRole",
 }
