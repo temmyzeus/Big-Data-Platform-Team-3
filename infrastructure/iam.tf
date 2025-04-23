@@ -165,7 +165,7 @@ resource "aws_iam_role" "emr_profile_role" {
 }
 
 resource "aws_iam_instance_profile" "emr_instance_profile" {
-  name = "emr_instance_profile"
+  name = "emr-instance-profile"
   role = aws_iam_role.emr_profile_role.name
 }
 
@@ -212,16 +212,34 @@ resource "aws_iam_role_policy" "emr_instance_profile_policy" {
 }
 
 # Modifications
-data "aws_iam_policy_document" "airflow_emr_permissions" {
+data "aws_iam_policy_document" "airflow_user_policy" {
   statement {
     effect = "Allow"
-    actions = ["elasticmapreduce:RunJobFlow"]
-    resources = ["arn:aws:elasticmapreduce:us-east-1:409021554022:cluster/*"] # Consider more specific resource ARNs
+    actions = [
+      "elasticmapreduce:RunJobFlow",
+      "elasticmapreduce:DescribeCluster",
+      "elasticmapreduce:ListClusters",
+      "elasticmapreduce:AddJobFlowSteps",
+      "elasticmapreduce:DescribeStep",
+      "elasticmapreduce:ListSteps"
+    ]
+    resources = ["*"]
+  }
+  
+  statement {
+    effect = "Allow"
+    actions = [
+      "iam:PassRole"
+    ]
+    resources = [
+      aws_iam_role.emr_service_role.arn,
+      aws_iam_role.emr_profile_role.arn
+    ]
   }
 }
 
-resource "aws_iam_user_policy" "airflow_emr_policy" {
-  name   = "AirflowEMRPermissions"
+resource "aws_iam_user_policy" "airflow_user_policy" {
+  name   = "airflow_emr_policy"
   user   = aws_iam_user.airflow_user.name
-  policy = data.aws_iam_policy_document.airflow_emr_permissions.json
+  policy = data.aws_iam_policy_document.airflow_user_policy.json
 }
