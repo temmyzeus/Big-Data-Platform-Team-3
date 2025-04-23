@@ -50,8 +50,8 @@ resource "aws_ssm_parameter" "airflow_access_key" {
   value = aws_iam_access_key.airflow_keys.id
 }
 
-resource "aws_ssm_parameter" "airflow_access_key" {
-  name  = "/Production/airflow/aws_access_key"
+resource "aws_ssm_parameter" "airflow_secret_key" {
+  name  = "/Production/airflow/aws_secret_access_key"
   type  = "String"
   value = aws_iam_access_key.airflow_keys.secret
 }
@@ -184,7 +184,7 @@ data "aws_iam_policy_document" "emr_instance_profile_policy" {
       "elasticmapreduce:ListInstanceGroups",
       "elasticmapreduce:ListInstances",
       "elasticmapreduce:ListSteps",
-      "elasticmapreduce:RunJobFlow", # ADDED THIS
+      "elasticmapreduce:RunJobFlow",
       "kinesis:CreateStream",
       "kinesis:DeleteStream",
       "kinesis:DescribeStream",
