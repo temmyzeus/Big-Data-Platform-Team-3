@@ -1403,3 +1403,1477 @@ NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
 [2025-04-23T19:17:32.249+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:17:32.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-23T19:17:32.278+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:17:32.278+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
 [2025-04-23T19:17:32.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.159 seconds
+[2025-04-23T19:46:14.662+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:14.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:46:14.708+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:14.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:14.877+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:17.059+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:17.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:46:17.159+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:17.158+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:46:17.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 2.582 seconds
+[2025-04-23T19:46:48.178+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:48.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:46:48.195+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:48.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:48.274+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:48.339+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:48.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:46:48.886+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:48.886+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:46:48.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.744 seconds
+[2025-04-23T19:46:57.447+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:57.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:46:57.497+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:57.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:57.775+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:46:58.117+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:58.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:46:59.586+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:46:59.586+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:46:59.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 2.262 seconds
+[2025-04-23T19:47:29.983+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:47:29.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:47:29.991+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:47:29.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:47:30.050+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:47:30.158+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:47:30.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:47:30.958+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:47:30.957+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:47:30.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 1.025 seconds
+[2025-04-23T19:48:01.900+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:01.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:48:01.906+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:01.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:01.934+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:02.249+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:02.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:48:02.263+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:02.262+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:48:02.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.392 seconds
+[2025-04-23T19:48:32.638+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:32.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:48:32.996+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:32.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:33.005+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:48:33.025+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:33.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:48:33.045+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:48:33.045+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:48:33.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.429 seconds
+[2025-04-23T19:49:03.166+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:03.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:49:03.210+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:03.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:03.260+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:03.312+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:03.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:49:03.364+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:03.364+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:49:03.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.239 seconds
+[2025-04-23T19:49:34.033+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:34.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:49:34.040+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:34.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:34.074+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:49:34.143+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:34.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:49:34.182+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:49:34.182+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:49:34.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.173 seconds
+[2025-04-23T19:50:04.397+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:04.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:50:04.404+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:04.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:04.443+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:04.510+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:04.509+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:50:04.544+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:04.543+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:50:04.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.170 seconds
+[2025-04-23T19:50:35.051+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:35.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:50:35.060+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:35.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:35.083+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:50:35.264+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:35.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:50:35.294+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:50:35.293+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:50:35.312+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.269 seconds
+[2025-04-23T19:51:05.782+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:05.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:51:05.792+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:05.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:05.858+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:05.922+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:05.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:51:06.003+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:06.003+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:51:06.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.272 seconds
+[2025-04-23T19:51:36.393+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:36.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:51:36.403+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:36.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:36.462+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:36.521+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:36.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:51:36.558+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:36.558+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:51:36.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.199 seconds
+[2025-04-23T19:51:51.361+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:51.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:51:51.369+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:51.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:51.412+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:51:51.808+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:51.808+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:51:51.826+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:51:51.826+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:51:51.860+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.522 seconds
+[2025-04-23T19:52:22.442+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:22.447+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:52:22.473+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:22.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:22.551+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:22.635+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:22.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:52:22.687+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:22.687+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:52:22.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.325 seconds
+[2025-04-23T19:52:53.140+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:53.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:52:53.145+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:53.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:53.207+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:52:53.266+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:53.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:52:53.302+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:52:53.302+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:52:53.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.193 seconds
+[2025-04-23T19:53:23.974+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:23.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:53:23.982+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:23.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:24.035+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:24.113+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:24.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:53:24.168+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:24.168+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:53:24.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.245 seconds
+[2025-04-23T19:53:54.990+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:54.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:53:55.027+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:55.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:55.187+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:53:55.295+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:55.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:53:55.411+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:53:55.411+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:53:55.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.544 seconds
+[2025-04-23T19:54:25.839+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:25.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:54:25.856+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:54:25.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:25.926+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:25.970+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:54:25.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:54:26.011+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:54:26.011+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:54:26.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.217 seconds
+[2025-04-23T19:54:31.941+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:31.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:54:31.949+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:54:31.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:31.992+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:54:31.986+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:54:31.992+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:54:32.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.165 seconds
+[2025-04-23T19:55:02.404+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:02.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:55:02.428+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:55:02.427+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:02.525+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:55:02.522+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:55:02.526+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:02.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.175 seconds
+[2025-04-23T19:55:33.569+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:33.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:55:33.585+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:55:33.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:33.603+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:55:33.599+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:55:33.603+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:55:33.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.073 seconds
+[2025-04-23T19:56:04.310+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:04.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:56:04.321+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:04.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:04.341+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:04.338+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:56:04.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:04.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.087 seconds
+[2025-04-23T19:56:11.436+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:11.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:56:11.444+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:11.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:11.470+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:11.465+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 104, in <module>
+    step_checker = EmrStepSensor(
+                   ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 584, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 64, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 185, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrStepSensor (task_id: watch_step). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:56:11.471+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:11.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.070 seconds
+[2025-04-23T19:56:41.955+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:41.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:56:41.961+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:41.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:41.998+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:56:41.989+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 104, in <module>
+    step_checker = EmrStepSensor(
+                   ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 584, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 64, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 185, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrStepSensor (task_id: watch_step). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:56:42.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:56:42.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.073 seconds
+[2025-04-23T19:57:12.651+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:12.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:57:12.655+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:12.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:12.677+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:12.675+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 104, in <module>
+    step_checker = EmrStepSensor(
+                   ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 584, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/sensors/emr.py", line 64, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/sensors/base.py", line 185, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrStepSensor (task_id: watch_step). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:57:12.678+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:12.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.072 seconds
+[2025-04-23T19:57:23.461+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:23.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:57:23.465+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:23.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:23.502+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:23.499+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 112, in <module>
+    terminate_cluster = EmrTerminateJobFlowOperator(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 897, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrTerminateJobFlowOperator (task_id: terminate_cluster). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T19:57:23.503+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:23.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.124 seconds
+[2025-04-23T19:57:28.562+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:28.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:57:28.570+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:28.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:28.642+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:57:28.971+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:28.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:57:29.004+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:57:29.004+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:57:29.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.483 seconds
+[2025-04-23T19:59:57.091+0000] {processor.py:186} INFO - Started process (PID=229) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:59:57.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T19:59:57.147+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:59:57.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:59:58.278+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T19:59:58.551+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:59:58.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T19:59:58.753+0000] {logging_mixin.py:190} INFO - [2025-04-23T19:59:58.752+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T19:59:58.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 1.959 seconds
+[2025-04-23T20:00:29.452+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:29.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:00:29.457+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:00:29.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:29.521+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:29.599+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:00:29.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:00:29.654+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:00:29.654+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:00:29.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.249 seconds
+[2025-04-23T20:00:46.940+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:46.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:00:46.950+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:00:46.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:46.974+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:00:46.967+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    aws_conn_id='aws_default',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: aws_conn_id
+[2025-04-23T20:00:46.975+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:00:47.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.109 seconds
+[2025-04-23T20:01:17.591+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:17.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:01:17.594+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:01:17.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:17.602+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:01:17.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    aws_conn_id='aws_default',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: aws_conn_id
+[2025-04-23T20:01:17.603+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:17.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.040 seconds
+[2025-04-23T20:01:48.278+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:48.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:01:48.286+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:01:48.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:48.311+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:01:48.309+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    aws_conn_id='aws_default',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: aws_conn_id
+[2025-04-23T20:01:48.312+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:01:48.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.123 seconds
+[2025-04-23T20:02:18.700+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:18.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:02:18.705+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:18.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:18.716+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:18.715+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    aws_conn_id='aws_default',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: aws_conn_id
+[2025-04-23T20:02:18.717+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:18.772+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.088 seconds
+[2025-04-23T20:02:48.997+0000] {processor.py:186} INFO - Started process (PID=266) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:48.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:02:49.005+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:49.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:49.020+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:49.017+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    aws_conn_id='aws_default',
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: aws_conn_id
+[2025-04-23T20:02:49.021+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:49.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.127 seconds
+[2025-04-23T20:02:59.325+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:59.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:02:59.330+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:59.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:59.342+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:02:59.340+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    region_name='us-east-1'
+                
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-23T20:02:59.343+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:02:59.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.073 seconds
+[2025-04-23T20:03:29.965+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:29.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:03:29.969+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:03:29.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:29.984+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:03:29.982+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 100
+    region_name='us-east-1'
+                
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2025-04-23T20:03:29.984+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:30.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.067 seconds
+[2025-04-23T20:03:33.163+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:33.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:03:33.168+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:03:33.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:33.261+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:03:33.250+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:03:33.263+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:03:33.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.184 seconds
+[2025-04-23T20:04:04.384+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:04.387+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:04:04.390+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:04.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:04.411+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:04.408+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:04:04.412+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:04.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.098 seconds
+[2025-04-23T20:04:22.706+0000] {processor.py:186} INFO - Started process (PID=289) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:22.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:04:22.716+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:22.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:22.811+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:23.143+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:23.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:04:23.181+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:23.181+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:04:23.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.574 seconds
+[2025-04-23T20:04:54.233+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:54.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:04:54.237+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:54.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:54.311+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:04:54.366+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:54.366+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:04:54.399+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:04:54.398+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:04:54.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.207 seconds
+[2025-04-23T20:05:24.728+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:24.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:05:24.732+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:24.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:24.784+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:24.831+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:24.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:05:24.892+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:24.892+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:05:24.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.198 seconds
+[2025-04-23T20:05:55.231+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:55.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:05:55.235+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:55.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:55.276+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:05:55.324+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:55.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:05:55.354+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:05:55.354+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:05:55.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.150 seconds
+[2025-04-23T20:06:25.778+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:25.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:06:25.782+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:25.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:25.833+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:25.897+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:25.896+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:06:25.929+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:25.928+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:06:25.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.193 seconds
+[2025-04-23T20:06:56.062+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:56.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:06:56.067+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:56.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:56.111+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:06:56.158+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:56.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:06:56.191+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:06:56.191+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:06:56.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.170 seconds
+[2025-04-23T20:07:26.626+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:26.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:07:26.632+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:26.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:26.669+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:26.701+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:26.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:07:26.728+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:26.727+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:07:26.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.123 seconds
+[2025-04-23T20:07:57.220+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:57.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:07:57.223+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:57.222+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:57.275+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:07:57.319+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:57.319+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:07:57.355+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:07:57.354+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:07:57.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.173 seconds
+[2025-04-23T20:08:28.260+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:28.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:08:28.264+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:28.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:28.327+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:28.399+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:28.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:08:28.446+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:28.446+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:08:28.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.222 seconds
+[2025-04-23T20:08:59.363+0000] {processor.py:186} INFO - Started process (PID=359) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:59.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:08:59.374+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:59.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:59.444+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:08:59.477+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:59.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:08:59.500+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:08:59.500+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:08:59.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.169 seconds
+[2025-04-23T20:09:29.810+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:09:29.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:09:29.815+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:09:29.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:09:29.835+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:09:29.868+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:09:29.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:09:29.904+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:09:29.904+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:09:29.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.125 seconds
+[2025-04-23T20:10:00.201+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:00.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:10:00.211+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:00.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:00.266+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:00.308+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:00.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:10:00.347+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:00.347+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:10:00.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.188 seconds
+[2025-04-23T20:10:30.597+0000] {processor.py:186} INFO - Started process (PID=380) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:30.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:10:30.600+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:30.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:30.634+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:10:30.685+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:30.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:10:30.719+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:10:30.719+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:10:30.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.147 seconds
+[2025-04-23T20:11:01.058+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:01.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:11:01.063+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:01.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:01.106+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:01.147+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:01.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:11:01.174+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:01.174+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:11:01.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.157 seconds
+[2025-04-23T20:11:31.601+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:31.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:11:31.611+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:31.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:31.655+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:11:31.685+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:31.684+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:11:31.710+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:11:31.710+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:11:31.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.130 seconds
+[2025-04-23T20:12:02.559+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:02.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:12:02.564+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:02.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:02.592+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:02.638+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:02.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T20:12:02.675+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:02.675+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T20:12:02.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.154 seconds
+[2025-04-23T20:12:18.902+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:18.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:12:18.908+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:18.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:18.941+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:18.932+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:12:18.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:18.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.091 seconds
+[2025-04-23T20:12:49.820+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:49.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:12:49.824+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:49.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:49.838+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:12:49.836+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:12:49.839+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:12:49.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.046 seconds
+[2025-04-23T20:13:20.610+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:20.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:13:20.614+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:20.614+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:20.646+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:20.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:13:20.647+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:20.675+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.076 seconds
+[2025-04-23T20:13:51.095+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:51.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:13:51.107+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:51.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:51.123+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:13:51.121+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:13:51.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:13:51.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.057 seconds
+[2025-04-23T20:14:21.547+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:21.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:14:21.552+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:21.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:21.580+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:21.573+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:14:21.580+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:21.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.150 seconds
+[2025-04-23T20:14:52.300+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:52.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:14:52.304+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:52.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:52.324+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:14:52.317+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:14:52.325+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:14:52.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.062 seconds
+[2025-04-23T20:15:22.700+0000] {processor.py:186} INFO - Started process (PID=445) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:22.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:15:22.705+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:15:22.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:22.738+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:15:22.724+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:15:22.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:22.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.111 seconds
+[2025-04-23T20:15:53.466+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:53.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:15:53.476+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:15:53.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:53.500+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:15:53.496+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:15:53.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:15:53.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.107 seconds
+[2025-04-23T20:16:23.982+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:23.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:16:23.987+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:16:23.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:24.010+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:16:24.006+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:16:24.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:24.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.085 seconds
+[2025-04-23T20:16:54.213+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:54.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:16:54.219+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:16:54.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:54.248+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:16:54.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:16:54.248+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:16:54.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.082 seconds
+[2025-04-23T20:17:24.917+0000] {processor.py:186} INFO - Started process (PID=473) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:24.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:17:24.923+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:17:24.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:24.949+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:17:24.941+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:17:24.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:24.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.094 seconds
+[2025-04-23T20:17:55.233+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:55.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:17:55.238+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:17:55.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:55.257+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:17:55.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:17:55.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:17:55.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.069 seconds
+[2025-04-23T20:18:25.605+0000] {processor.py:186} INFO - Started process (PID=487) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:25.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:18:25.611+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:18:25.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:25.632+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:18:25.629+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:18:25.633+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:25.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.060 seconds
+[2025-04-23T20:18:56.135+0000] {processor.py:186} INFO - Started process (PID=494) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:56.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:18:56.139+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:18:56.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:56.157+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:18:56.154+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:18:56.158+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:18:56.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.069 seconds
+[2025-04-23T20:19:26.933+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:26.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:19:26.940+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:19:26.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:26.961+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:19:26.957+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:19:26.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:26.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.062 seconds
+[2025-04-23T20:19:58.072+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:58.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:19:58.077+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:19:58.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:58.101+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:19:58.095+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:19:58.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:19:58.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.080 seconds
+[2025-04-23T20:20:28.391+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:28.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:20:28.396+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:20:28.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:28.425+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:20:28.418+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:20:28.426+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:28.444+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.069 seconds
+[2025-04-23T20:20:59.339+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:59.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:20:59.343+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:20:59.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:59.373+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:20:59.363+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:20:59.374+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:20:59.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.092 seconds
+[2025-04-23T20:21:30.090+0000] {processor.py:186} INFO - Started process (PID=529) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:21:30.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:21:30.098+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:21:30.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:21:30.134+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:21:30.129+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:21:30.134+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:21:30.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.085 seconds
+[2025-04-23T20:22:00.343+0000] {processor.py:186} INFO - Started process (PID=536) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:00.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:22:00.347+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:22:00.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:00.369+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:22:00.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:22:00.370+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:00.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.078 seconds
+[2025-04-23T20:22:31.048+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:31.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:22:31.053+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:22:31.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:31.070+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:22:31.066+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:22:31.071+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:22:31.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.052 seconds
+[2025-04-23T20:23:01.647+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:01.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:23:01.652+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:23:01.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:01.683+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:23:01.681+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:23:01.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:01.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.080 seconds
+[2025-04-23T20:23:32.213+0000] {processor.py:186} INFO - Started process (PID=557) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:32.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:23:32.217+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:23:32.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:32.231+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:23:32.228+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:23:32.232+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:23:32.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.062 seconds
+[2025-04-23T20:24:02.418+0000] {processor.py:186} INFO - Started process (PID=564) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:02.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:24:02.426+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:24:02.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:02.452+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:24:02.449+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:24:02.453+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:02.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.089 seconds
+[2025-04-23T20:24:33.450+0000] {processor.py:186} INFO - Started process (PID=571) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:33.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:24:33.458+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:24:33.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:33.495+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:24:33.489+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:24:33.495+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:24:33.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.127 seconds
+[2025-04-23T20:25:04.606+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:04.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:25:04.609+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:25:04.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:04.633+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:25:04.630+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:25:04.634+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:04.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.078 seconds
+[2025-04-23T20:25:35.306+0000] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:35.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:25:35.312+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:25:35.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:35.331+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:25:35.328+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:25:35.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:25:35.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.075 seconds
+[2025-04-23T20:26:05.653+0000] {processor.py:186} INFO - Started process (PID=597) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:05.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:26:05.660+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:26:05.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:05.701+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:26:05.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:26:05.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:05.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.098 seconds
+[2025-04-23T20:26:36.564+0000] {processor.py:186} INFO - Started process (PID=604) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:36.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:26:36.582+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:26:36.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:36.605+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:26:36.601+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:26:36.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:26:36.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.097 seconds
+[2025-04-23T20:27:07.617+0000] {processor.py:186} INFO - Started process (PID=611) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:07.619+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:27:07.622+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:27:07.620+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:07.647+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:27:07.641+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 96, in <module>
+    add_steps = EmrAddStepsOperator(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 129, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrAddStepsOperator (task_id: add_steps). Invalid arguments were:
+**kwargs: {'region_name': 'us-east-1'}
+[2025-04-23T20:27:07.648+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:07.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.079 seconds
+[2025-04-23T20:27:33.252+0000] {processor.py:186} INFO - Started process (PID=612) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:33.264+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T20:27:33.270+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:27:33.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:33.429+0000] {logging_mixin.py:190} INFO - [2025-04-23T20:27:33.388+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 63, in <module>
+    create_emr_cluster = EmrCreateJobFlowOperator(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/amazon/aws/operators/emr.py", line 687, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 508, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 959, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to EmrCreateJobFlowOperator (task_id: create_emr_cluster). Invalid arguments were:
+**kwargs: {'aws_hook_params': {'region_name': 'us-east-1'}}
+[2025-04-23T20:27:33.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T20:27:33.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.434 seconds
