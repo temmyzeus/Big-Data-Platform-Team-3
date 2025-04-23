@@ -400,3 +400,33 @@ Traceback (most recent call last):
 NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
 [2025-04-23T16:42:50.961+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
 [2025-04-23T16:42:50.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.070 seconds
+[2025-04-23T16:43:21.513+0000] {processor.py:186} INFO - Started process (PID=299) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:21.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T16:43:21.529+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:21.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:21.541+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:21.538+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/emr-orchestration.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/emr-orchestration.py", line 60, in <module>
+    start_date=datetime(2025, 4, 23),
+               ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'
+[2025-04-23T16:43:21.542+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:21.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 0.065 seconds
+[2025-04-23T16:43:38.972+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:38.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/emr-orchestration.py for tasks to queue
+[2025-04-23T16:43:38.989+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:38.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:39.127+0000] {processor.py:925} INFO - DAG(s) 'emr_orchestration' retrieved from /opt/airflow/dags/emr-orchestration.py
+[2025-04-23T16:43:39.890+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.890+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:emr_orchestration
+[2025-04-23T16:43:39.898+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.898+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:emr_orchestration
+[2025-04-23T16:43:39.904+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.903+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:emr_orchestration
+[2025-04-23T16:43:39.907+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.907+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:emr_orchestration
+[2025-04-23T16:43:39.911+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.911+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:emr_orchestration
+[2025-04-23T16:43:39.915+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.914+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:emr_orchestration
+[2025-04-23T16:43:39.918+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.918+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:emr_orchestration
+[2025-04-23T16:43:39.918+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-23T16:43:39.945+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.944+0000] {dag.py:3262} INFO - Creating ORM DAG for emr_orchestration
+[2025-04-23T16:43:39.964+0000] {logging_mixin.py:190} INFO - [2025-04-23T16:43:39.964+0000] {dag.py:4180} INFO - Setting next_dagrun for emr_orchestration to 2025-04-23 00:00:00+00:00, run_after=2025-04-24 00:00:00+00:00
+[2025-04-23T16:43:39.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/emr-orchestration.py took 1.054 seconds
