@@ -49,7 +49,7 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
         "TerminationProtected": False,
     },
     # "Steps": SPARK_STEPS,
-    "JobFlowRole": "emr_instance_profile",
+    "JobFlowRole": "emr-instance-profile-role",
     "ServiceRole": "emr-service-role",
 }
 
