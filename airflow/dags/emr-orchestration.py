@@ -115,3 +115,5 @@ terminate_cluster = EmrTerminateJobFlowOperator(
     aws_conn_id='aws_default',
     dag=dag
 )
+
+create_emr_cluster >> add_steps >> step_checker >> terminate_cluster
