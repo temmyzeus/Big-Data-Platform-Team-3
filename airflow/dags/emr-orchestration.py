@@ -93,3 +93,10 @@ with DAG(
     region_name='us-east-1', 
     dag=dag
 )
+    add_steps = EmrAddStepsOperator(
+    task_id='add_steps',
+    job_flow_id="{{ task_instance.xcom_pull(task_ids='create_emr_cluster', key='return_value') }}",
+    aws_conn_id='aws_default',
+    steps=SPARK_STEPS,
+    dag=dag
+)
