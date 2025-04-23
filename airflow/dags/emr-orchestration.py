@@ -41,6 +41,13 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
                 "InstanceType": "m5.xlarge",
                 "InstanceCount": 1,
             },
+            {
+                'Name': 'Worker nodes',
+                'Market': 'ON_DEMAND',
+                'InstanceRole': 'CORE',
+                'InstanceType': 'm5.xlarge',  # Choose appropriate instance type
+                'InstanceCount': 3,  # Here we specify 3 worker nodes
+                }
         ],
         # If the EMR steps complete too quickly the cluster will be torn down before the other system test
         # tasks have a chance to run (such as the modify cluster step, the addition of more EMR steps, etc).
