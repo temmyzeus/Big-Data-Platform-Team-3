@@ -65,5 +65,6 @@ with DAG(
     task_id='create_emr_cluster',
     job_flow_overrides=JOB_FLOW_OVERRIDES,
     aws_conn_id='aws_default',
+    region_name='us-east-1', 
     dag=dag
 )
