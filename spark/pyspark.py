@@ -26,8 +26,20 @@
 
 
 # pyspark_emr.py
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession, DataFrame
+import pyspark.sql.functions as F
 import argparse
+
+USERS_DATA_S3_URI: str = "s3://big-data-platform-team-3/etl/users_data/*.parquet"
+LISTINGS_DATA_S3_URI: str = "s3://big-data-platform-team-3/etl/listings_data/*.parquet"
+
+def load_parquet_data(spark: SparkSession, url: str, load_options: dict = {}) -> DataFrame:
+    return (
+        spark
+        .read
+        .options(**load_options)
+        .parquet(url)
+    )
 
 def main():
     parser = argparse.ArgumentParser()
@@ -45,6 +57,29 @@ def main():
         print(f"Read {df.count()} rows from {args.input}")
         df.write.mode("overwrite").parquet(args.output)
         print(f"Wrote output to {args.output}")
+
+        users_df: DataFrame = load_parquet_data(
+                spark, 
+                USERS_DATA_S3_URI, 
+                {"mergeSchema": True}
+            )
+        
+        listing_df: DataFrame = load_parquet_data(
+                spark, 
+                LISTINGS_DATA_S3_URI, 
+                {"mergeSchema": True}
+            )
+        
+        users_df.printSchema()
+        listing_df.printSchema()
+
+        # Clean 
+        # listing_df.join(
+        #     users_df,
+        #     on=users_df.user_id == listing_df.seller_id,
+        #     how="left"
+        # )
+
     except Exception as e:
         print(f"FAILED: {str(e)}")
         raise

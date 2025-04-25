@@ -219,6 +219,7 @@ data "aws_iam_policy_document" "airflow_user_policy" {
       "elasticmapreduce:RunJobFlow",
       "elasticmapreduce:DescribeCluster",
       "elasticmapreduce:ListClusters",
+      "s3:*", # Added this
       "elasticmapreduce:AddJobFlowSteps",
       "elasticmapreduce:DescribeStep",
       "elasticmapreduce:ListSteps"
