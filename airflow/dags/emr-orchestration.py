@@ -71,7 +71,7 @@ SPARK_STEPS = [
                 'spark-submit',
                 '--deploy-mode', 'cluster',
                 '--master', 'yarn',
-                's3://big-data-platform-team-3/emr_pyspark/pyspark.py',
+                's3://big-data-platform-team-3/emr_pyspark/spark_job.py',
                 '--input', 's3://big-data-platform-team-3/etl/car_sales_data.parquet',
                 '--output', 's3://big-data-platform-team-3/output'
             ]
