@@ -30,7 +30,7 @@ from airflow import DAG
 
 JOB_FLOW_OVERRIDES: dict[str, Any] = {
     "Name": "Spark Job Cluster",
-    "ReleaseLabel": "emr-6.9.0",
+    "ReleaseLabel": "emr-5.36.1",
     "Applications": [{"Name": "Spark"}],
     "LogUri": "s3://big-data-platform-team-3/emr_logs/",
     "Instances": {
