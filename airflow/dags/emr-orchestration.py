@@ -39,14 +39,14 @@ JOB_FLOW_OVERRIDES: dict[str, Any] = {
                 "Name": "Primary node",
                 "Market": "ON_DEMAND",
                 "InstanceRole": "MASTER",
-                "InstanceType": "r6in.2xlarge",
+                "InstanceType": "m5.xlarge",
                 "InstanceCount": 1,
             },
             {
                 'Name': 'Worker nodes',
                 'Market': 'ON_DEMAND',
                 'InstanceRole': 'CORE',
-                'InstanceType': 'r6in.2xlarge',
+                'InstanceType': 'm5.xlarge',
                 'InstanceCount': 1,
                 }
         ],
