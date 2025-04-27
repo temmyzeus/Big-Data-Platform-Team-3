@@ -72,7 +72,7 @@ SPARK_STEPS = [
                 '--deploy-mode', 'cluster',
                 '--master', 'yarn',
                 's3://big-data-platform-team-3/emr_pyspark/spark_job.py',
-                '--input', 's3://big-data-platform-team-3/etl/car_sales_data.parquet',
+                '--input', 's3://big-data-platform-team-3/etl/*',
                 '--output', 's3://big-data-platform-team-3/output'
             ]
         }
