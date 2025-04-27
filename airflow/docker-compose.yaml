@@ -53,6 +53,8 @@ x-airflow-common:
   build:
     context: .
     dockerfile: Dockerfile
+    additional_contexts:
+      shared: ..
   pull_policy: never
   environment:
     &airflow-common-env
@@ -80,6 +82,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -195,7 +198,7 @@ services:
     command:
       - -c
       - |
-        if [[ -z "${AIRFLOW_UID:-50000}" ]]; then
+        if [[ -z "$$AIRFLOW_UID" ]]; then
           echo
           echo -e "\033[1;33mWARNING!!!: AIRFLOW_UID not set!\e[0m"
           echo "If you are on Linux, you SHOULD follow the instructions below to set "
@@ -238,7 +241,7 @@ services:
           echo
         fi
         mkdir -p /sources/logs /sources/dags /sources/plugins
-        chown -R "${AIRFLOW_UID:-50000}:0" /sources/{logs,dags,plugins}
+        chown -R "$$AIRFLOW_UID:0" /sources/{logs,dags,plugins,config}
         exec /entrypoint airflow version
     # yamllint enable rule:line-length
     environment:
